@@ -9,7 +9,7 @@ Follow the steps below to set up and run the project:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/html-modernizer.git
+git clone https://github.com/Power108/HTML-Modernizer.git
 cd html-modernizer
 ```
 
