@@ -1,10 +1,18 @@
 # HTML-Modernizer
 A smart tool using LLM agents to enhance user-generated HTML by applying modern web design best practices.
 
+## Demo of our Working Model
+**Link:** https://drive.google.com/file/d/19rrCzYhH-f_d9N6AUdCkkenQUBI0gKry/view?usp=sharing
 
 ## Getting Started
 
 Follow the steps below to set up and run the project:
+
+### Create a venv environment
+
+```bash
+python -m venv env_name
+```
 
 ### Clone the Repository
 
