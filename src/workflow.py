@@ -18,6 +18,9 @@ from src.state import PlanExecute
 
 WORKING_DIR = "./data"
 
+os.makedirs(os.path.join(WORKING_DIR, "generated"), exist_ok=True)
+
+
 def plan_step(state: PlanExecute):
     response =  planner.invoke(input={"input": state["current_html"], "human_feedback": state["human_feedback"]})
     plan = process_llm_output(response.content, Plan)
